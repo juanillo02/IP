@@ -2,7 +2,8 @@
 
 #include<stdio.h>
 
-int main(){
+int main()
+{
 	unsigned char car;
 	printf ("Introduce un caracter: ");
 	scanf("%c", &car);  //car=getchar ()
