@@ -5,7 +5,8 @@
 #define G 9.8
 #define PI 3.14159
 
-int main(){
+int main()
+{
 	float L, periodo;
 	printf("Escribe el valor deseado para la logitud: ");
 	scanf("%f", &L);
