@@ -2,7 +2,8 @@
 
 #include<stdio.h>
 
-int main(){
+int main()
+{
 	int a, b, c, aux;
 	printf("Introduce un valor para a: ");
 	scanf("%i,%i,%i", &a);
