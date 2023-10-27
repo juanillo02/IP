@@ -4,7 +4,8 @@
 
 int add_divisors(int num);
 
-int main(){
+int main()
+{
 	int a, b, c, d;
 	printf("Introduce un numero positivo para a:\n");
 	scanf("%i", &a);
@@ -12,7 +13,8 @@ int main(){
 	scanf("%i", &b);
 	c=add_divisors(a);
 	d=add_divisors(b);
-	if (c==d){
+	if (c==d)
+	{
 		printf("Los numeros %i y %i son amigos.", a, b);
 	}
 	else
@@ -26,12 +28,15 @@ int main(){
 //Precondicion num>0
 //Postcondicion devuelve la suma de los divisores
 
-int add_divisors(int num){
+int add_divisors(int num)
+{
 	int suma=0, i;
-	for(i=1; i<=num;i++){
-		if(num%i==0){
+	for(i=1; i<=num;i++)
+	{
+		if(num%i==0)
+		{
 		suma=suma+i;
-	}
+		}
 	}
 	return suma;
 }
