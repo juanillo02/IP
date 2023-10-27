@@ -3,7 +3,8 @@
 #include<stdio.h>
 #include<math.h>
 
-int main(){
+int main()
+{
 	int N, P1, P2, P3, P4;
 	printf("Introduce un valor para N: ");
 	scanf("%i", &N);
