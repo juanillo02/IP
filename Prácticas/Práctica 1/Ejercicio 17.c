@@ -3,7 +3,8 @@
 #include<stdio.h>
 #include<math.h>
 
-int main(){
+int main()
+{
 	int x, a, b, c, d, p;
 	printf("Introduce un valor para los coeficientes a, b, c y d: ");
 	scanf("%i,%i,%i,%i", &a,&b,&c,&d);
