@@ -1,11 +1,13 @@
 //Ejercicio 6
 #include<stdio.h>
 
-int main(){
+int main()
+{
 	int a;
 	printf("Introduce un numero del 1 al 7: ");
 	scanf("%i", &a);
-	switch(a){
+	switch(a)
+	{
 		case 1: printf("El dia de la semana elegido es el Lunes.\n"); break;
 		case 2: printf("El dia de la semana elegido es el Martes.\n"); break;
 		case 3: printf("El dia de la semana elegido es el Miercoles.\n"); break;
