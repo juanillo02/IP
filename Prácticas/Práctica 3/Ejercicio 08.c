@@ -5,23 +5,26 @@
 
 int introducir (int);
 
-int main(){
+int main()
+{
 	int n, s, f;
 	f=introducir(n);
 	printf("La suma es:%i.", f);
 	return 0;
 }
- //Cabecera int introducir (int n)
- //Precondicion introduce el valor de x y el numero de terminos
- //Postcondicion devuelve la serie
- 
-int introducir (int n){
+
+//Cabecera int introducir (int n)
+//Precondicion introduce el valor de x y el numero de terminos
+//Postcondicion devuelve la serie 
+int introducir (int n)
+{
 	int a, s, i=1, aux, x=0, cont=0;
 	printf("Introduce un valor para x:\n");
 	scanf("%i", &n);
 	printf("Introduce el numero de terminos:\n");
 	scanf("%i", &a);
-	do{
+	do
+	{
 		s=n-pow(n,i)+x;
 		i=i+2;
 		aux=s;
