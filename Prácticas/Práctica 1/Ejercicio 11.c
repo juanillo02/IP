@@ -4,7 +4,8 @@
 #include<math.h>
 #define PI 3.14159
 
-int main(){
+int main()
+{
 	float f, l, x;
 	printf("Introduce un valor para la frecuencia: ");
 	scanf("%f", &f);
