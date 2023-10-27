@@ -3,7 +3,8 @@
 #include<stdio.h>
 #include<math.h>
 
-int main(){
+int main()
+{
 	float c, F;
 	printf("Introduce los grados Celsius: ");
 	scanf("%f", &c);
