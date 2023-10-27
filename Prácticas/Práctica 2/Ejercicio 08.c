@@ -2,7 +2,8 @@
 
 #include<stdio.h>
 
-int main(){
+int main()
+{
 	int s, m, h;
 	printf("Introduce un valor para los segundos: ");
 	scanf("%i", &s);
