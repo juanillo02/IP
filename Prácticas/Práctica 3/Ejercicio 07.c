@@ -4,7 +4,8 @@
 
 float suma (float);
 
-int main(){
+int main()
+{
 	float n, s;
 	printf("Introduce un valor para n:\n");
 	scanf("%f", &n);
@@ -16,13 +17,14 @@ int main(){
 //Cabecera float suma (float n)
 //Precondicion i<=n
 //Postcondicion devuelve la suma de la serie armonica 1/n
-
-float suma (float n){
+float suma (float n)
+{
 	int i;
 	float a, f;
 	a=0;
 	i=1;
-	do{
+	do
+	{
 		f=1.0/i;
 		a=a+f;
 		i++;
