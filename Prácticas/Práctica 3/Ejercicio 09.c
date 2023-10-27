@@ -4,7 +4,8 @@
 
 float factorial (int);
 
-int main(){
+int main()
+{
 	float n, f;
 	printf("Introduce un valor para n:\n");
 	scanf("%f", &n);
@@ -15,13 +16,14 @@ int main(){
 //Cabecera float factorial (int n)
 //Precondicion inicializa n
 //Postcondicion devuelve la serie
-
-float factorial (int n){
+float factorial (int n)
+{
 	int f, i, a, aux;
 	float s;
 	a=1;
 	s=0;
-	for(i=1;i<=n;i++){
+	for(i=1;i<=n;i++)
+	{
 		f=i*a;
 		aux=f;
 		f=a;
