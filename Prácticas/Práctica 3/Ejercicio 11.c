@@ -7,7 +7,8 @@ void parametro();
 float fracciones(int, int);
 int factorial();
 
-int main(){
+int main()
+{
 	int x, f, y, fac;
 	parametro();
 	fac=factorial();
@@ -18,8 +19,8 @@ int main(){
 //Cabecera void parametro()
 //Precondicion Inicializa x e y
 //Postcondicion devuelve el valor para x y el numero de terminos
-
-void parametro(){
+void parametro()
+{
 	int x, y;
 	printf("Introduce un valor para x:\n");
 	scanf("%i", &x);
@@ -29,11 +30,12 @@ void parametro(){
 
 //Cabecera int factorial()
 //Precondicion inicializa 
-
-int factorial(){
-    int f, i, a, aux;
+int factorial()
+{
+    	int f, i, a, aux;
 	a=1;
-	for(i=1;i<=n;i++){
+	for(i=1;i<=n;i++)
+	{
 		f=i*a;
 		aux=f;
 		f=a;
@@ -45,11 +47,12 @@ int factorial(){
 //Cabecera float fracciones (int a, int b)
 //Precondicion i<=b
 //Postcondicion devuelve la suma de la serie
-
-float fracciones (int a, int b){
+float fracciones (int a, int b)
+{
 	float s, i, n;
 	n=2;
-	while(i<=b){
+	while(i<=b)
+	{
 		s=(pow(a,n))/
 	}
 }
