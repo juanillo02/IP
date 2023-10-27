@@ -4,7 +4,8 @@
 #include<math.h>
 #define PI 3.14159
 
-int main(){
+int main()
+{
 	float r, p, a, v;
 	printf("Introduce un valor para el radio: ");
 	scanf("%f", &r);
