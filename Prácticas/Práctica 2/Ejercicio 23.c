@@ -2,16 +2,19 @@
 
 #include<stdio.h>
 
-int main(){
+int main()
+{
 	int a, b, MCD, aux, resto, x, y;
-		printf("Introduce un valor para a y otro para b, siendo ambos positivos:\n");
-		scanf("%i%i", &a,&b);
-	if (a<b){
+	printf("Introduce un valor para a y otro para b, siendo ambos positivos:\n");
+	scanf("%i%i", &a,&b);
+	if (a<b)
+	{
 		aux=a;
 		a=b;
 		b=aux;
 	}
-	do{
+	do
+	{
 		x=a;
 		y=b;
 		resto=x%y;
