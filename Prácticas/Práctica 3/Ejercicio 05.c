@@ -5,7 +5,8 @@
 
 void intercambio (int *, int *);
 
-int main(){
+int main()
+{
 	int *a, *b;
 	printf("Escribe dos numeros:\n");
 	scanf("%i%i", &a, &b);
@@ -15,7 +16,8 @@ int main(){
 	return 0; 
 }
 
-void intercambio (int *x, int *y){
+void intercambio (int *x, int *y)
+{
 	int aux;
 	aux=*x;
 	*x=*y;
