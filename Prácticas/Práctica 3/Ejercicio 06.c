@@ -6,7 +6,8 @@ void obtener_valores(float*, float*);
 float calcular (float, float);
 void imprimir_respuesta (float);
 	
-int main(){
+int main()
+{
 	float res, vol,  intensidad;
 	obtener_valores(&res,&vol);
 	intensidad=calcular(res,vol);
@@ -17,8 +18,8 @@ int main(){
 // Cabecera void obtener_valores (float *r, float *v)
 // Precondicion inicializar res y vol
 // Postcondicion Escribre los valores de res y vol
-
-void obtener_valores (float *r, float *v){
+void obtener_valores (float *r, float *v)
+{
 	printf("Introduzca un valor para la resistencia:\n");
 	scanf("%f", r);
 	printf("Introduzca un valor para la voltaje:\n");
@@ -28,8 +29,8 @@ void obtener_valores (float *r, float *v){
 // Cabecera float calcular (float res, float vol)
 // Precondicion inicializa la i
 // Postcondicion devuelve la intensidad calculada
-
-float calcular (float res, float vol){
+float calcular (float res, float vol)
+{
 	float i;
 	i=vol/res;
 	return i;
@@ -38,7 +39,7 @@ float calcular (float res, float vol){
 // Cabecera void imprimir_respuesta (float intensidad)
 // Precondicion llama a la intensidad
 // Postcondicion mostrar en pantalla la intensidad
-
-void imprimir_respuesta (float intensidad){
+void imprimir_respuesta (float intensidad)
+{
 	printf("La intensidad es: %.2f", intensidad);
 }
