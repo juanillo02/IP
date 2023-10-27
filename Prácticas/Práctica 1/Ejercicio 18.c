@@ -3,7 +3,8 @@
 #include<stdio.h>
 #include<math.h>
 
-int main(){
+int main()
+{
 	float x1, y1, x2, y2, d;
 	printf("Da un valor para x1, y1, x2, y2: ");
 	scanf("%f,%f,%f,%f", &x1, &y1, &x2, &y2);
