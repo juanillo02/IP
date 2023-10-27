@@ -4,7 +4,8 @@
 
 int cuadrante(int, int);
 
-int main(){
+int main()
+{
 	int x, y, r;
 	printf("Introduce una coordenada para x e y: \n");
 	scanf("%i%i", &x,&y);
@@ -14,20 +15,26 @@ int main(){
 	
 }
 
-int cuadrante (int a, int b){
-	if (a>0 && b>0){
-	return 1;
+int cuadrante (int a, int b)
+{
+	if (a>0 && b>0)
+	{
+		return 1;
 	}
-	if (a<0 && b>0){
-	return 2;
+	if (a<0 && b>0)
+	{
+		return 2;
 	}
-	if (a<0 && b<0){
-	return 3;
+	if (a<0 && b<0)
+	{
+		return 3;
 	}
-	if (a>0 && b<0){
-	return 4;
+	if (a>0 && b<0)
+	{
+		return 4;
 	}
-	if (a==0 || b==0){
-	return 0;
+	if (a==0 || b==0)
+	{
+		return 0;
 	}
 }
