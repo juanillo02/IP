@@ -4,7 +4,8 @@
 
 void binario (int);
 
-int main(){
+int main()
+{
 	int a, f;
 	printf("Introduce un valor para el numero decimal: %i\n");
 	scanf("%i", &a);
@@ -15,7 +16,6 @@ int main(){
 //Cabecera 
 //Precondicion
 //Postcondicion
-
 void binario (int d){
 	
 }
