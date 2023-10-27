@@ -5,12 +5,13 @@
 //int add_divisors(int);
 void add_divRef(int, int*);
 
-int main(){
+int main()
+{
 	int a, s;
 	printf("Introduce un numero:\n");
 	scanf("%i", &a);
 //	s=add_divisors(a);
-add_divRef(a, &s);
+	add_divRef(a, &s);
 	printf("La suma es: %i", s);
 	return 0;
 }
@@ -29,11 +30,14 @@ add_divRef(a, &s);
 	return suma;
 }*/
 
-void add_divRef(int num, int *suma){
+void add_divRef(int num, int *suma)
+{
 	int i;
 	*suma=0;
-	for(i=1;i<=num;i++){
-		if(num%i==0){
+	for(i=1;i<=num;i++)
+	{
+		if(num%i==0)
+		{
 			*suma+=i;
 		}
 	}
