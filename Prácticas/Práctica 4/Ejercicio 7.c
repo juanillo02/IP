@@ -6,15 +6,18 @@
 
 void numeros_vector(int[], int);
 
-int main(){
+int main()
+{
 	int v[N];
 	int a,i;
 	
-	for(i=0;i<N;i++){
+	for(i=0;i<N;i++)
+	{
 		printf("Introduce un valor para la posicion %i del vector:\n", i+1);
 		scanf("%i", &v[i]);
 	}
-	do{
+	do
+	{
 		printf("Introduce un valor para el vector:\n");
 		scanf("%i", &a);
 		
