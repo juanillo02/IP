@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-int main(){
+int main()
+{
 	FILE *f;
 	int v[6];
 	f=fopen("ejemplobinario","wb");
@@ -15,6 +16,7 @@ int m[6];
 int i;
 f=fopen("ejemplobin","rb");
 fread(m,sizeof(int),6,f);
-for(i=0;i<6;i++){
+for(i=0;i<6;i++)
+{
 	printf("%i",m[i]); //Escribiria 2 4 6 7 8
 }
