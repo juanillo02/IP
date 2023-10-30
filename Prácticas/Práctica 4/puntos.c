@@ -2,12 +2,14 @@
 #include<string.h>
 #include<stdlib.h>
 
-typedef struct {
+typedef struct
+{
 	float x;
 	float y;
 } punto;
 
-int main(){
+int main()
+{
 	punto a, b, *p; //p pide direcciones tipo punto que serian a y b
 	               // a y p tendrian dos campos, float x y float y
 	//Leer valores sin p
