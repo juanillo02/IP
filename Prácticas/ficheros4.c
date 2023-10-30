@@ -1,16 +1,16 @@
 //ficheros
 
-f=fopen("nombre_fichero en el disco", "modo_apertura"); // 'w' lo destruye y lo crea, 'r' lo lee y 'a' añade si ests creado
+f=fopen("nombre_fichero en el disco", "modo_apertura"); // 'w' lo destruye y lo crea, 'r' lo lee y 'a' aÃ±ade si ests creado
 //wb, esa b es para pasarlo a binario ocupando menos espacio
 //Ejemplo
 
 FILE *f
 
 if ((f=fopen("c:datos", "w"))==NULL)
-printf("Error apertura");
-else printf("Fichero abierto");
-
-fclose(f); //Cerrar fichero
+	printf("Error apertura");
+else
+	printf("Fichero abierto");
+	fclose(f); //Cerrar fichero
 
 
 char car;
