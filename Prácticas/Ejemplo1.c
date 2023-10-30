@@ -2,7 +2,8 @@
 #include<math.h>
 #define PI 3.14159
 
-int main(){
+int main()
+{
 	float radio, longitud, volumen, area;
 	printf("Escribe el radio que desea: ");
 	scanf("%f", &radio);
