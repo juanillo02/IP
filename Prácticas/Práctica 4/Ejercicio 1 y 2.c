@@ -7,7 +7,8 @@ void obtener_valores(int[], int); //void obtener_valores(int *, int);
 void mostrar_valores(int[], int);
 float media_vector(int [], int);
 
-int main(){
+int main()
+{
 	int v[N];
 	float m;
 	obtener_valores(v,N);
@@ -20,22 +21,24 @@ int main(){
 //Cabecera void obtener_valores(int vec[], int elem)
 //Precondicion inicializar el vector
 //Postcondicion mostrar los valores
-
-void obtener_valores(int vec[], int elem){
+void obtener_valores(int vec[], int elem)
+{
 	int i;
-	for(i=0;i<elem;i++){
-	printf("\nEscribe elemento %i:", i);
-	scanf("%i", &vec[i]);
-}
+	for(i=0;i<elem;i++)
+	{
+		printf("\nEscribe elemento %i:", i);
+		scanf("%i", &vec[i]);
+	}
 }
 
 //Cabecera mostrar_valores (int[], int elem)
 //Precondicion inicizalizar valores
 //Postcondicion  mostrar los valores del vector
-
-void mostrar_valores(int vec[], int elem){
+void mostrar_valores(int vec[], int elem)
+{
 	int i;
-	for(i=0;i<elem;i++){
+	for(i=0;i<elem;i++)
+	{
 		printf("\n v[%i]=%i", i, vec[i]);
 	}
 }
@@ -43,11 +46,12 @@ void mostrar_valores(int vec[], int elem){
 //Cabecera float media_valores (int vec[], int elem)
 //Precondicion inicializar valores del vector
 //Postcondicion devuelve la media de los valores del vector.
-
-float media_valores(int vec[], int elem){
+float media_valores(int vec[], int elem)
+{
 	int i, s=0;
 	float me;
-	for(i=0;i<elem;i++){
+	for(i=0;i<elem;i++)
+	{
 		s=vec[i]+s;
 	}
 	me=s/elem;
